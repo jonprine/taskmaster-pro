@@ -101,7 +101,7 @@ $(".list-group").on("blur", "textarea", function () {
     .text(text);
 
   // replace textarea with p element
-  $(this).replaceWith(task);
+  $(this).replaceWith(taskP);
 
 });
 
